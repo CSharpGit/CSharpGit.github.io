@@ -1,1 +1,818 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Quan</title>
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+  ================================================== -->
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-target=".main-nav">
+<!--欢迎页 start -->
+<section id="section-banner">
+    <div class="container">
+        <div class="row">
+            <div class="banner-content wow fadeInRight">
+                <h2 class="title"> 欢迎来到我的博客！<br/>&emsp;<span>我不是一个开发人员 <br/>&emsp;却是一个爱好编程而又喜欢游历大江南北的技术追求者！</span></h2>
+                <a href="#section-resume" class="btn btn-default">我的履历</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--欢迎页 end -->
+
+<!-- 导航栏 start -->
+<section class="section-menu">
+    <div class="navbar navbar-default main-nav" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1"
+                        data-toggle="collapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">樱花树下的约定</a>
+            </div>  <!-- navbar-header end -->
+            <!-- main nav  -->
+            <div class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#section-banner">主页 </a></li>
+                    <li><a href="#section-profile">自我简介 </a></li>
+                    <li><a href="#section-skill">我的技能</a></li>
+                    <li><a href="#section-resume">我的履历</a></li>
+                    <li><a href="#section-testimonial">获奖情况</a></li>
+                    <li><a href="#section-portfolio">项目展示 </a></li>
+                    <li><a href="#section-contact">联系方式 </a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+</section>
+<!-- 导航栏 end -->
+
+<!-- 技能简介 start -->
+<section id="section-overview" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="service-wrapper">
+                <div class="service-inner wow fadeInRight" data-wow-delay=".2s">
+                    <i class="fa fa-users"></i>
+                    <div class="service-box">
+                        <h3>软件开发</h3>
+                        <p>
+                            PC端软件开发，首先想到的是Windows桌面应用程序，因为迄今为止，国内个人电脑使用Windows系统的用户还是最多的。
+                            虽有很多开发人员吐槽微软不开源、不跨平台，使用的开发语言C#也不像Java那样无所不能，但是纵观几十年来微软做出的成就，不可否认，
+                            PC端软件GUI处理得最好的还是微软。本人开发PC端软件主要使用C#语言，但也不局限于此，Java、C++和C也是我的辅助开发语言，
+                            针对不同需求使用不同的开发语言，既能快速开发项目，又能兼容各个平台，这才是客户最想要的。
+                        </p>
+                        <p>
+                            移动端APP开发，首先想到的是基于Android的应用开发，因为国内安卓系统用户仍然是最多的，但是也不否认IOS、Google Chrome等系统的强大。
+                            本人善用Java语言做安卓应用开发，加上安卓应用程序的前端界面与Windows上WPF应用程序有异曲同工之处，使得我能够快速实现PC端和移动端应用程序的开发。
+                        </p>
+                        <p>
+                            嵌入式开发，学习软件开发之前，最理想的开发工作其实就是嵌入式开发，因为我想在生活中创造科技感，想为我自己打造专属的智能家居，但是很遗憾，到现在为止，单片机还没有学习。
+                            如果有机会，我还是会花时间来弥补我的遗憾。所以对嵌入式感兴趣的我也非常乐意去尝试嵌入式开发。
+                        </p>
+                    </div>
+                </div> <!-- service -inner  -->
+                <div class="service-inner wow fadeInRight" data-wow-delay=".5s">
+                    <i class="fa fa-globe"></i>
+                    <div class="service-box">
+                        <h3>网站开发</h3>
+                        <p>
+                            网站开发，首先想到的还是PHP，目前国内中小型网站，PHP开发比较快速，能够使用简单的框架就可以完成。
+                            PHP不是我的主要Web开发语言，但是我使用起来还是比较方便、快捷。开发语言没有局限性，什么语言开发快速、稳定性强、维护方便就用什么开发语言，
+                            针对不同情况和客户需求进行选择是一个开发人员最应该考虑的，前提是你要学会多种开发语言，并且熟悉掌握它们之间的优劣之处。
+                        </p>
+                        <p>
+                            网站开发，还应该想到的是ASP和ASP.NET Web应用开发，尤其是大型网站使用ASP.NET MVC模式进行开发，达到了前后端分离，易于后期维护的效果。
+                            当然这也是我的主要Web开发语言，因为项目经历多，所以熟悉。另外微软推出ASP.NET Core Web，跨平台部署之后更使得ASP.NET在网站开发中大展拳脚。
+                            所以，大中型网站的开发，ASP.NET无疑是一个较好的选择。
+                        </p>
+                        <p>
+                            网站开发，还不能忘记的是无所不能的Java，Java Web之所以这么长久存在是因为Java程序员真的太多，只要熟悉基本框架，Java程序员就可以很熟悉开发Web应用。
+                            当然，Web开发的三大主流开发语言中，JSP虽然近年来渐渐被忽视，但是还是存在的。本人也开发过JSP网站，但是Java Web不是我最擅长的。
+                        </p>
+                    </div>
+                </div>  <!-- service -inner  -->
+                <div class="service-inner wow fadeInRight" data-wow-delay=".8s">
+                    <i class="fa fa-pencil"></i>
+                    <div class="service-box">
+                        <h3>项目策划</h3>
+                        <p>
+                            大学过去这三年的辛苦其实没白费，从开始有想法到写出策划方案，再自己着手开发工作，最后完成部署，直到写完项目总结，这一过程都是亲力亲为，一点不马虎，
+                            通过几个项目的实践，我有了很多体会。其实我不喜欢这样的自己，我希望的是有Partner，有跟我有类似想法的人跟我一起探讨项目，给我分享他的想法，我来写策划，
+                            我来策划项目的实施流程，需要的相关技术。
+                        </p>
+                        <p>
+                            如果你有想法，请告诉我，我来给你分析，我来给你策划，让你的想法称为现实。我们生活在这个科技发展迅速的时代，最缺的就是创造性思维，
+                            有想法的人不敢说出来，怕别人说那些都是天马行空。其实，我们应该大胆想象，创新来源于创造性思维。
+                        </p>
+                        <p>
+                            如果你有想法，请告诉我！
+                        </p>
+                    </div>
+                </div> <!-- service -inner  -->
+                <div class="service-inner wow fadeInRight" data-wow-delay="1.1s">
+                    <i class="fa fa-bank"></i>
+                    <div class="service-box">
+                        <h3>数据处理</h3>
+                        <p>
+                            很幸运，我的大学没有选中我报考的专业，而调剂到了信息与计算科学这个专业，因为我们正赶上人工智能和大数据这班列车。
+                        </p>
+                        <p>
+                            东北电力大学的信息与计算科学这个专业，正好培养了我数学和计算机两方面的能力，通过数学建模我彻底明白了怎么将数学运用于生活，怎么利用计算机来解决生活中的实际问题。
+                            人工智能无非也就是让计算机来实现人的思维，将人的思维用算法来描述，通过计算机编写程序来具体实现。 然而，这其中少不了的就是数据处理，任何实际问题都离不开数据，
+                            数据量多到一定程度，我们叫它大数据。针对海量数据，我们怎么快速处理就是我们需要解决的关键问题。学过大数据处理得人肯定对Hadoop框架不陌生，这也是我接触大数据处理得第一个框架，
+                            通过这个框架的学习和实践，我真正了解了大数据处理的基本流程。
+                        </p>
+                    </div>
+                </div>  <!-- service -inner  -->
+            </div>
+        </div><!-- row end -->
+    </div>
+</section>
+<!-- 技能简介 end -->
+
+<!-- 自我简介 start -->
+<section id="section-profile" class="section-padding">
+    <div class="profile-bg visible-md visible-lg"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12 pull-right">
+                <div class="profile-desc wow fadeInRight">
+                    <h2 class="section-title uppercase">您好！请叫我郑传权。</h2>
+                    <br/>
+                    <p>
+                        我是一名大四学生，现就读于<a href="http://www.neepu.edu.cn/" target="_blank">东北电力大学</a>-理学院-信息与计算科学专业。
+                    </p>
+                    <p>
+                        我的专业课程主要培养了我<b>数学</b>和<b>计算机</b>方面的能力，数学方面，我学习了Matlab、数值分析、运筹学、概率论及数理统计、数据分析、统计软件、多目标决策等，对数据处理和算法有一定把握。
+                        计算机方面，我有较多的开发经验，擅长运用C#开发语言(自学)，完成的Windows桌面应用3个，Asp.net Web 4个，<a href="https://github.com/CSharpGit/" target="_blank">源码</a>
+                        收录在Github代码托管平台,
+                        另外我计算机方面的专业课程C、C++、数据结构、Java、数据库、Android应用开发、计算机图形学等让我能够将数学和计算机紧密联系起来处理生活中的实际问题，尤其是通过三次数学建模的经历，让我真正体会到了数学与计算机到底有多么强大！
+                    </p>
+                    <p>
+                        在我的大学时光里，最感激的也是我呆过时间最长的地方是我们学院的<a href="">软件研发中心</a>，在这里我奋斗了三年，我收获的不止是知识，还有跟学长学姐以及学弟学妹们的友情，
+                        想到从加入软件研发中心，通过学长学姐们的培训指导，再到我们给学弟学妹授课讲解，最后与几个主管一起为中心出谋划策这些点点滴滴，心里对软件研发中心有万分的不舍。
+                        看到学弟学妹们的成长，感觉看到了自己的身影，看到徒弟们技术一天天地提高，内心无比欣慰。走进每一个工作室都充满了回忆，走进培训机房想到当初加入软件研发中心时努力学习的样子；
+                        走进工作室二，想到了当初任C#组长时坐窗户旁边每天学习新的技术，又得抽时间备课给学弟学妹们培训劳累的样子；走进工作室一，想到了大三一年中担任技术主管时为中心大小事务操劳，
+                        与其他主管们讨论中心的改革制度忙碌的样子。 这些美好的回忆，将永远铭记在我心中！
+                    </p>
+                    <p>
+                        我的大学生活，几乎是在忙碌中度过的，但是我并不感觉遗憾，我想我大学的忙碌没有白费。通过大学这三年的经历，我的求知欲望变得越来越强，但是由于家庭原因，我选择就业而放弃了考研。
+                        我认为，选择就业我也会发展的很好，毕业后的我可以从事软件开发方面的工作，因为我能运用多种编程语言进行项目开发并且有较多的开发经验；
+                        我也能从事数据处理方面的工作，因为我本属于数学系，加上我掌握了计算机的三大操作系统，并能在对应的操作系统上通过编程或使用相关软件对数据进行处理；
+                        另外，我也能从事项目策划相关工作，这也是我理想的工作，更想自己创业。因为我通过多次的项目开发，从开始策划到开发完成，整个过程都比较熟悉。
+                        最重要的是我喜欢研究生活，总想利用计算机来处理生活中的实际问题。
+                    </p>
+                </div>
+            </div>
+        </div> <!-- row end -->
+    </div><!-- container end -->
+</section>
+<!-- 自我简介 end -->
+
+<!-- 我的技能 start -->
+<section id="section-skill" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="heading-title">我的技能</h2>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeInLeft">
+                <div class="skill-desc">
+                    <p>对于软件开发，我最理想的是嵌入式开发，但是现实是我对嵌入式开发的掌握并不多，多的是Windows桌面应用及移动端Android应用的开发经验。
+                        喜欢我的理想，请为我点赞，需要我的现实请联系我！
+                        <br>
+                        <br>
+                        对于网站开发，中小型网站，我可以用PHP给你开发，大中型网站我建议用ASP.NET开发，因为这样比较好维护，可以保证网站经久不衰。
+                        对于Java Web，我首先声明，暂时无法独立完成，因为我没有类似的开发经历。如果您需要建设自己的网站，请联系我！
+                        <br>
+                        <br>
+                        项目策划，是我最理想的职业，因为我想见证别人的理想成为现实的那一刻。我也想我的工作中有几个较好的搭档，一起奋斗，一起创造奇迹。
+                        如果您是创业者，请务必联系我，我将成为您最好的搭档！
+                        <br>
+                        <br>
+                        数据处理方面，少量数据我可以通过简单的编程让您轻松管理您的信息资源，海量数据处理，请多准备几台服务器，我将为您快速处理，给您想要的数据。
+                        如果您需要处理数据，请联系我！
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-6 wow fadeInRight">
+                <div class="skill-box wow fadeInDown" data-wow-delay=".2s">
+                    <label> 软件开发</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progress-bar" aria-valuemin="0" aria-valuenow="80" aria-valuemax="100" style="width: 80%;">
+                            80%
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="skill-box wow fadeInDown" data-wow-delay=".4s">
+                    <label> 网站开发</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progress-bar" aria-valuemin="0" aria-valuenow="85" aria-valuemax="100" style="width: 85%;">
+                            85%
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="skill-box wow fadeInDown" data-wow-delay=".6s">
+                    <label> 项目策划</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progress-bar" aria-valuemin="0" aria-valuenow="90" aria-valuemax="100" style="width: 90%;">
+                            90%
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="skill-box wow fadeInDown" data-wow-delay=".8s">
+                    <label> 数据处理</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progress-bar" aria-valuemin="0" aria-valuenow="70" aria-valuemax="100" style="width: 70%;">
+                            70%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 我的技能 End -->
+
+<!-- 我的履历 start-->
+
+<!-- 座右铭 start-->
+<section id="section-resume" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow fadeInUp">
+                <h2 class="heading-title text-center">我的履历</h2>
+                <p>
+                    It's not doing the things that you like，but liking the things you have to do that makes your life happy！
+                <p/>
+                <div class="text-right"><b>——不抱怨生活，选择了，就试着去爱上它</b></div>
+                <p>
+                    生活的乐趣在于不断地探索未知，如果你感觉生活无趣，请大胆走出去，去你未曾去过的地方，去看看未知的世界！
+                </p>
+                <div class="text-right"><b>——知道才能想到，见多才能识广</b></div>
+                <p>
+                    纠正一个观念“你对我好，我一定会对你好”，我的观点：“我对你好，我相信你会对我好”，主动的人可能到处是朋友，被动的人可能会失去很多朋友！
+                </p>
+                <div class="text-right"><b>——变被动为主动，主动去争取</b></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 座右铭 end-->
+
+<section id="resume-details" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow fadeInLeft">
+                <div class="resume-inner">
+                    <h2 class="heading-title">任职经历</h2>
+                    <p>
+                        在其位，谋其政！只有处在那个职位才能真切地体会到那个职位该干些什么！
+                        <br>
+                        <br>
+                        我的大学，就担任过三个职位，虽然不多，但担任每一个职位我都尽职尽责，每一个职位都让我受益良多。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="timeline-centered">
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">文体委员</h3>
+                            <p>
+                                文体委员是我上大学担任的第一个职位，大家都知道在大学担任班委必须通过竞选，民主投票通过才能任职，若要连任必须保证学年综合测评排名前30%（各学校要求有所不同）。
+                                正因为如此，我从一个胆怯、不敢上台发言的大一新生开始，勇敢地走上讲台参加竞选，成功入选之后，我考虑事情的思维从一个人发展到一个大集体，需要与其他班委相互协作
+                                统一好班级相关事宜，我负责班级文体活动，与学生会体育部对接。担任职位后，我不仅要服务同学，还要努力提升自己的学习成绩和与同学之间的沟通能力，作为班级文体委员，
+                                我应该为他们树立榜样，学习成绩保持专业前10%，体育运动类项目保持班级第一，同时还辅导同学加强体育锻炼。三年的时间过去了，我依旧是班级体委，依然为同学们服务，因为这是我的责任。
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-secondary">
+                            <i class="entypo-suitcase"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">C#小组组长</h3>
+                            <p>
+                                担任C#小组组长，让我彻底走上了编程之路。软件研发中心C#小组，主要学习C#语言，运用C#语言开发基于.NET平台的Windows桌面应用程序和ASP.NET网站。
+                                刚开始加入软件研发中心时，主要由上一届学长学姐给我们统一培训，通过一段时间的培训之后，考核通过的同学将能够继续留在软件研发中心，通过竞选
+                                担任部门部长或小组组长的同学将成为核心成员，接着为下一届新生做贡献。
+                                <br>
+                                <br>
+                                自从担任C#小组组长之后，我的大学生活变得格外忙碌。一方面，作为一组之长，技术必定是小组内学得最好的，不然怎么能带好下一届。于是软件基地工
+                                作室成了我大学常去的地方，每天除了上课时间几乎都在工作室学习开发技术，晚上很晚了才回到寝室休息。另一方面，任职就意味着服务他人，C#小组
+                                作为软件研发中心的一个重要分支，从上任的那一刻起C#小组的事就是我的事，C#小组发展好与不好责任在我头上了。招新之后的那一个学期是最忙碌的，
+                                既要学好专业知识，又要配合上一级主管管理好C#小组，作为组长，每周要给新生授课讲解开发知识，还要不断学习新技术。一年的辛苦总算没白费，
+                                通过一年的时间，培养出了三个非常满意的徒弟，自己也学到了不少开发技术。
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-info">
+                            <i class="entypo-location"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">技术主管</h3>
+                            <p>
+                                软件研发中心运行模式是在实践基地老师的指导下，学生自主管理。中心聘请在校学生担任中心的行政主管（CEO）、技术主管、培训主管、项目经理、外联主管以及各部门部长。
+                                中心大小事务由各主管共同商议，最后行政主管统一执行。
+                                <br>
+                                <br>
+                                在软件研发中心忙碌了一整年的我本不打算竞选主管，想好好放松放松，慢慢地享受一下大学生活。可是，担任组长的一年时间里，我已经慢慢习惯了忙碌的生活，习惯了服务同学，
+                                习惯了运用自己的思维做事。于是，我又选择了竞选技术主管，继续走我的编程之路。
+                                <br>
+                                <br>
+                                担任软件研发中心技术主管这一年，让我的思维提高到了一个新的高度，特别是与别人的沟通特别讲究，真正体会到了在其位谋其政的深刻意义。每次与院长以及各位基地指导教师
+                                谈话都会有新的收获，另外还认识了从软件研发中心走出去的学长学姐，从学长学姐们的行动中我体会到了他们对软件研发中心深深的情谊，他们时刻关注着软件研发中心的发展。
+                                毕业十年的学长学姐仍然放不下软件研发中心，可见这份情，是多么的深！
+                                <br>
+                                <br>
+                                担任技术主管的一年里，我们几个主管主要讨论的是怎么让中心发展得更好，我们尝试过多种改革措施，虽然到我离职的时候还未见成效，并且我们也失败过多次，但是我们还是
+                                收获了很多。软件研发中心，是探索技术的地方。所以最大的改革还是培训方案的改革，怎么让中心成员学到更多的新兴技术是我们最关切的，所以，我们在任时提出了并组办了
+                                自学班，但是效果不是理想的。今年要离职之际，我提出了“引导式-探索式-讨论式”的培训方案，这将让下一届的同学来执行，我还期待着成效。然而，在我们努力学习旧知识
+                                的同时，新兴的开发技术发展得飞快，我们都被落下了，所以今年我们又将中心的小组制改革为团队制，希望我们在学习新知识的同时加强团队建设，让我们软件研发中心这个大家
+                                庭更有气氛。
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="timeline-entry begin">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon"
+                             style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                            <i class="entypo-flight"></i> +
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 wow fadeInLeft">
+                <div class="resume-inner">
+                    <h2 class="heading-title">项目经历</h2>
+                    <p>
+                        走上了编程之路，最少不了的就是项目开发，只有通过完整项目开发经历才能算是一个有能力的开发人员。
+                        <br>
+                        <br>
+                        我的项目开发经验主要是C#语言开发较多，完成过几个Windows桌面应用的开发，几个ASP.NET不同框架的网站开发，下面是我的一些项目摘要。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="timeline-centered">
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-success">
+                            <i class="entypo-feather"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">签到系统</h3>
+                            <h4>2016年7月</h4>
+                            <p>
+                                2016年7月是我参加的第一个暑期培训，软件研发中心每年暑假都会组织中心成员集体培训，而培训方式主要通过实际项目开发来学习开发技术，从而同学们的实战能力。
+                                暑假期间，我参与了软件研发中心签到系统的开发，是使用微软推出的WPF技术进行开发的Windows桌面应用程序，我负责数据库设计部分，使用的数据库是SQL Server 2012版本，
+                                由于当时技术还不够，大部分时间花去补漏洞去了，数据库设计完成后，我花了整整两周时间看完“SQL Server 从入门到精通”一书，主要学到了数据库的基本操作(CRUD)，
+                                数据库备份，创建触发器等技术。开学之后软件投入使用，数据库的维护工作就是我来完成。
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-secondary">
+                            <i class="entypo-suitcase"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">新生考试系统</h3>
+                            <h4>2017年3月</h4>
+                            <p>
+                                2017年3月，正直开学初，我灵感一来，想做一个考试软件，方便新生测试使用。于是我提前一周回学校开始了我的第一个完整项目的开发，
+                                由于当时学的知识都比较旧，实现了基本功能，然而前端设计不是很可观没有投入使用。这个软件同样使用了WPF技术进行开发，
+                                使用了SQL Server 2012版本的数据库来存储数据。主要完成的功能有，上传Word格式题目、考生通过学号登录，可以选择C语言、PS、Web进行作答，
+                                规定时间内将文件保存并上传服务器，管理员登录可查看考生选择、填空成绩，手动录入程序题得分，并可以打印考生成绩表。
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-info">
+                            <i class="entypo-location"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">签到系统更新</h3>
+                            <h4>2017年7月</h4>
+                            <p>
+                                软件研发中心签到系统运行一年之后，我们收到了中心成员的反馈信息，并发现了很多漏洞。刚投入使用的签到系统界面没有经过美工人员的设计，直接投入使用，
+                                众多工作室成员提议界面不够友好，需要美化，另外，软件运行一段时间之后IP限制出现了问题，还有工作室成员反应打开WiFi之后，电脑无法进行签到。
+                                2017年7月，又迎来了一个暑假，没有师傅得带领，我也成为了别人的师傅，组织小组成员对签到系统进行了更新，具体实现了使用样式表美化客户端界面，
+                                增加小游戏界面，修复ip限制的bug，自定义安装向导。当然，这些功能的完善少不了学弟们的辛勤付出，我只是给他们答疑解惑罢了。
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-warning">
+                            <i class="entypo-camera"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">更新房产管理平台网站</h3>
+                            <h4>2017年10月</h4>
+                            <p>
+                                2017年9月刚开学不久，学校房产管理处老师联系我们基地指导教师，需要我们为其更新一个2010级学长给学校做的一个房产管理网站，当时我正开始学习ASP.NET网站开发，
+                                然而我的师傅刚好出去实习了，这个重任就交给我来完成了。
+                                <br>
+                                <br>
+                                此网站是使用ASP.NET WebForm框架搭建的学校房产管理网站，主要用于对学校所有建筑、楼宇、房间进行管理，并能够线上实时查询、统计报表。由于开发时间较久远，浏览器更新较快，导致学长开发的
+                                网站不再兼容新兴浏览器，导致登录权限发生错误，加上布局过于紧凑，网站看起来已经不如人眼。接手网站更新工作之后我又开始忙碌了，因为很多关于网站的开发技术
+                                还不熟悉得现学现用。通过一个月的时间，我完成了网站的更新，并添加了在线预览CAD图纸功能，完善了数据库分类报表功能。
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-danger">
+                            <i class="entypo-camera"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">软件研发中心网站</h3>
+                            <h4>2018年2月</h4>
+                            <p>
+                                2018年1月正是一个寒冷的冬天，我的寒假是裹着被子在凳子上敲代码过来的。当时了解了ASP.NET跨平台部署技术，就尝试着修改中心官方网站，想着将其部署到云服务器上以便于外界访问，
+                                而不限于学校的局域网内。通过一个假期的挣扎，并没有实现最初的梦想，虽然自己购买了服务器，为中心买了域名。也学会了云服务器上部署ASP.NET网站，但是由于把大多时间用去学习云
+                                端技术去了，没有完成中心网站的跨平台开发。
+                                <br>
+                                <br>
+                                虽然没有完成开发，但也有了很多收获。此次开发使用了ASP.NET CORE MVC技术进行开发，数据库使用MYSQL5.5.8版本，并且使用EntityFramework技术来实现数据库设计，另外初次使用了
+                                LINQ技术和lambda表达式。这也就是我未完成项目开发的原因。想用的技术都不熟悉，都需要先学会了再使用，而我现学现用就出现了很多问题，耽误了很多时间，最后没有达到想要的结果。
+                                开学之后又有了其他项目，所以此网站的开发就这样被搁置了。但是项目源码保存在GitHub上，有时间可以继续开发。
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon bg-primary">
+                            <i class="entypo-camera"></i>
+                        </div>
+                        <div class="timeline-label">
+                            <h3 class="resume-title">“创友之家”网站</h3>
+                            <h4>2018年4月</h4>
+                            <p>
+                                2018年3月初，新学期又开始了，然而想到自己2017年申请的吉林省创新创业训练项目“创友之家”网站还没有完成开发，于是开学又开始忙碌的生活了。
+                                <br>
+                                <br>
+                                此网站是使用的前端技术包括Web基本开发技术HTML、CSS、JavaScript以及BootStrap框架。 后端技术包括ASP.NET网站开发技术、ASP.NET MVC开发模
+                                式、LINQ语言集成查询技术、Lambda表达式、Entity Framework实体框架等。 服务器使用的是IIS服务器。多亏了寒假的挣扎，学到的技术感觉没那么陌生，
+                                使用起来有了更深的理解，不再像之前那么迷茫。所以通过一个多月的时间，“创友之家”网站顺利完成，答辩时还得到了老师的一致好评。
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="timeline-entry begin">
+                    <div class="timeline-entry-inner">
+                        <div class="timeline-icon"
+                             style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                            <i class="entypo-flight"></i> +
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <a href="download/个人简历-郑传权.pdf" class="btn btn-default featured">下载简历</a>
+        </div>
+    </div>
+</section>
+<!-- 我的履历 end -->
+
+<!-- 获奖情况 start -->
+<section id="section-testimonial" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide text-center" id="testimonial-carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="3"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="4"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="5"></li>
+                        <li data-target="#testimonial-carousel" data-slide-to="6"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <p>
+                                <img src="images/credentials/jinbu.jpg" class="img-responsive img-rounded" alt="">
+                            </p>
+                            <h4 class="client-name">2015-2016学年度 荣获学习进步三等奖学金</h4>
+                        </div>
+                        <div class="item ">
+                            <p>
+                                <img src="images/credentials/guoer.jpg" class="img-responsive img-rounded" alt="">
+                            </p>
+                            <h4 class="client-name">2016年9月 计算机二级（C语言程序设计）证书</h4>
+                        </div>
+                        <div class="item">
+                            <p>
+                                <img src="images/credentials/youxiu.jpg" class="img-responsive img-rounded" alt="">
+                            </p>
+                            <h4 class="client-name">2016-2017学年度 荣获优秀学生三等奖学金</h4>
+                        </div>
+                        <div class="item ">
+                            <p>
+                                <img src="images/credentials/tuanyuan.jpg" class="img-responsive img-rounded" alt="">
+                            </p>
+                            <h4 class="client-name">2016-2017学年度 在团工作中被评为“优秀团员”</h4>
+                        </div>
+                        <div class="item ">
+                            <p>
+                                <img src="images/credentials/jindaishi.jpg" class="img-responsive img-rounded" alt="">
+                            </p>
+                            <h4 class="client-name">2016-2017学年度 近代史实践教学论文一等奖</h4>
+                        </div>
+                        <div class="item ">
+                            <p>
+                                <img src="images/credentials/shuxuejianmo.jpg" class="img-responsive img-rounded" alt="">
+                            </p>
+                            <h4 class="client-name">2017-2018学年度 全国大学生数学建模竞赛(吉林赛区)一等奖</h4>
+                        </div>
+                        <div class="item ">
+                            <p>
+                                <img src="images/credentials/tiwei.jpg" class="img-responsive img-rounded" alt="">
+                            </p>
+                            <h4 class="client-name">2015-2018学年度 担任班级文体委员</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 获奖情况 end -->
+
+<!-- 项目展示 start -->
+<section id="section-portfolio" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeInUp">
+                <div class="section-heading">
+                    <h2 class="heading-title">项目展示</h2>
+                    <p>
+                        考虑到信息隐私问题，部分项目不能部署到服务器上，这里只展示页面效果图，<a href="https://github.com/CSharpGit/" target="_blank">项目源码</a>请到GitHub代码托管平台查看！
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic1.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic1.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end -->
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic2.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic2.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end 3step-->
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic3.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic3.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end -->
+
+            <div class="clearfix"></div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic4.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic4.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end -->
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic5.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic5.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end 6 step -->
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic6.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic6.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end -->
+
+            <div class="clearfix"></div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic7.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic7.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end -->
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic8.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic8.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end -->
+            <div class="col-md-4 col-sm-4">
+                <div class="portfolio-box">
+                    <img src="images/portfolio/portfolio_pic9.jpg" alt="" class="img-responsive">
+                    <div class="image-overlay text-center">
+                        <a href="images/portfolio/portfolio_pic9.jpg" data-rel="prettyPhoto">
+                            <i class="fa fa-arrows-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- col-md-4 end -->
+        </div>
+    </div>
+</section>
+<!-- 项目展示 end -->
+
+<!-- 联系方式 start -->
+<section id="section-contact" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="heading-title">给我留言</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 wow fadeInRight">
+                <div class="contact-form">
+                    <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
+                    <form name="sentMessage" id="contactForm contact-box" novalidate method='post' action='contact_me.php'>
+                        <div class="control-group">
+                            <div class="controls">
+                                <input type="text" class="form-control" placeholder="您的名字" name="eName" id="name" required data-validation-required-message="请输入您的姓名"/>
+                                <p class="help-block"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <input type="email" class="form-control" placeholder="您的Email地址" name="email" id="email" required data-validation-required-message="请输入您正确的Email地址"/>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <textarea rows="10" cols="100" class="form-control" placeholder="请输入的邮件内容" name="message" id="message" required data-validation-required-message="请输入您的邮件内容！" minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
+                            </div>
+                        </div>
+                        <div id="success"></div> <!-- For success/fail messages -->
+                        <button type="submit" class="btn btn-default pull-right">发送</button>
+                        <br/>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 wow fadeInLeft">
+                <div class="contact-left">
+                    <p>感谢您的拜访，若有需要，请通过邮件或电话与我联系。</p>
+                    <div class="location">
+                        <p>学校地址：吉林省吉林市船营区长春路169号东北电力大学</p>
+                        <p>家庭住址：贵州省黔西南州兴义市</p>
+                        <p>中国 贵州 黔西南 兴义市</p>
+                    </div>
+                    <ul>
+                        <li><span>邮件地址 :</span> <a>13844238586@163.com</a></li>
+                        <li><span>联系电话 :</span> <a>138-4423-8586</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 联系方式 end -->
+
+<!-- 底栏 start -->
+<footer id="section-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="socail-link list-inline">
+                    <li><img src="images/qq.jpg" class="img-thumbnail"></li>
+                    <li><img src="images/wachat.png" class="img-thumbnail"></li>
+                </ul>
+                <h4>&copy; 2018.郑传权个人博客</h4>
+                <h5>网站模板来自<a href="http://www.cssmoban.com/" target="_blank">模板之家</a>，若有侵权，请联系本人处理！</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- 底栏 end -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.useso.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- initialize jQuery Library -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- Bootstrap jQuery -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<!-- PrettyPhoto -->
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<!-- Wow Animation -->
+<script type="text/javascript" src="js/wow.min.js"></script>
+<!-- singlepagenav -->
+<script src="js/jquery.singlePageNav.js"></script>
+<!-- Eeasing -->
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<!-- Sticky Menu -->
+<script src="js/jquery.sticky.js"></script>
+<script src="contact/jqBootstrapValidation.js"></script>
+<script src="contact/contact_me.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script>
+    $(".main-nav").sticky();
+</script>
+
+<script>
+    new WOW().init();
+
+</script>
+</body>
+</html>
